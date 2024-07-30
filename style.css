@@ -5,6 +5,7 @@
     --bg-color: #3F72AF ;
     --primary-color: #F9F7F7 ;
     --label-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/sol.png");
+    --btn-hover: #819DEB;
 }
 
 .mudar-tema {
@@ -25,6 +26,7 @@
     background-color: var(--primary-color);
     color:  var(--bg-color);
     --label-icon:url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/lua.png") ;
+    
 }
 
 body {
@@ -65,4 +67,18 @@ h3 {
     font-size: 4em;
     padding: 10px;
     margin: 20px;
+}
+
+.btn-jogar {
+    padding:  8px 15px;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-family: var(--font-family);
+}
+
+.btn-jogar:hover{
+    background: var(--btn-hover);
 }
